@@ -1,0 +1,327 @@
+/* общие стили */
+* {
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    background-image: url(../img/bird_bg.jpg);
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.button{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.2em;
+    background-color: #F87932;
+    padding: 16px 24px;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    box-shadow: none;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+    font-weight: 700;
+    box-shadow:0 0 30px #ffffff;
+}
+
+
+/* ШРИФТЫ */
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.sedgwick-ave-regular {
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ХЕДЕР */
+
+header {
+    background-image: url(..//img/bg-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    position: relative;
+    
+}
+
+
+
+.rombs {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    transform: scale(1.5);
+}
+
+.rombs-1 {
+    width: 90%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.nav-button {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F87932;
+    letter-spacing: 0.2em;
+    background-color: white;
+    padding: 20px 20px;
+    text-align: center;
+    margin-right: 8%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+header .logo {
+    background-color: white;
+    padding: 20px 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-right: 8%;
+}
+
+.nav-button:hover {
+    padding: 40px 20px;
+    box-shadow:0 0 20px #ffffff;
+}
+
+.header_bottom{
+    display: flex;
+    margin-top: 15%;
+}
+
+header .header-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+header .header-left u {
+    color: #F87932;
+}
+
+.header_h1 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #39BFA7;
+    text-shadow: 1px 1px 2px black;
+}
+
+.button-header{
+    margin-top: 20%;
+}
+
+.header_right{
+    position: relative;
+    margin-left: 25%;
+}
+
+.sliderimg{
+    position: absolute;
+    top: -32%;
+    left: -213px;
+
+}
+
+.header_right .romb_headerimg1{
+    position: absolute;
+    top: 40%;
+    left: 304px;
+    display: block;
+}
+
+.rombs-line-header{
+    display: inline-block; 
+    overflow: hidden;
+}
+
+.header_right .romb_headerimg1:hover{
+    transform: scale(1.2);
+}
+
+.header_right .romb_headerimg2:hover{
+    transform: scale(1.2);
+}
+
+.header_right .romb_headerimg3:hover{
+    transform: scale(1.2);
+}
+
+.header_right .romb_headerimg4:hover{
+    transform: scale(1.2);
+}
+
+.header_right .romb_headerimg5:hover{
+    transform: scale(1.2);
+}
+
+.header_right .romb_headerimg2{
+    position: absolute;
+    top: 107%;
+    left: 43px;
+
+}
+
+.header_right .romb_headerimg3{
+    position: absolute;
+    top: -35%;
+    left: 206px;
+}
+
+.header_right .romb_headerimg4{
+    position: absolute;
+    top: 64%;
+    left: 140px;
+}
+
+.header_right .romb_headerimg5{
+    position: absolute;
+    top: 86%;
+    left: -220px;
+
+}
