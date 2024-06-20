@@ -602,3 +602,132 @@ justify-content: space-between;
 }
 
 
+
+/* ############## СЕКЦИЯЯЯ ПЯТЬЬЬЬЬЬЬЬ */
+
+.section-5{
+    background-image: url(../img/bg-block4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 220vh;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+
+.section-5 .container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.borderfor5block{
+    border: white 4px solid;
+    margin-top: 5%;
+    width: 120%;
+    height: 1900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-5 h1{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+}
+
+.section-5 p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.section-5 .topblock-section5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.armyrombwhite{
+    margin: 3%;
+}
+
+.bottomblock-section5{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomblock-section5 h1{
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #39BFA7;
+}
+
+.blockofsection5 .number5section{
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+
+}
+
+.blockofsection5 .monthsection5{
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #969696;
+    font-size: 28px;
+
+}
+
+.blockofsection5 p{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+}
+
+.blockofsection5{
+    display: flex;
+    margin-top: 8%;
+    align-items: center;
+    gap: 26px;
+}
+
+.rightblocksection5{
+margin-left: 10%;
+
+}
+
+.section-5 .text{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.section-5 .button{
+    align-self: center;
+    margin-top: 10%;
+}
