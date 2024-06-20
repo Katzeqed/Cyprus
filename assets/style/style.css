@@ -225,7 +225,7 @@ header .logo {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-right: 8%;
-    
+
 }
 
 .nav-button:hover {
@@ -477,11 +477,11 @@ header .header-left u {
 
 }
 
-.section-3 .playimg{
+.section-3 .playimg {
     margin-top: 20%;
 }
 
-.bottomblock-section3{
+.bottomblock-section3 {
     display: flex;
     margin-top: 35%;
 }
@@ -489,40 +489,40 @@ header .header-left u {
 
 /* СЕККЦИЯ ЧЕТРЫЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕ */
 
-.section-4{
+.section-4 {
     margin-top: 10%;
 }
 
-.section-4 .container{
+.section-4 .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
 
 
-    
+
 }
 
-.top-block-section4{
+.top-block-section4 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.top-block-section4 h1{
+.top-block-section4 h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 48px;
     font-weight: 700;
 }
 
-.top-block-section4 h2{
+.top-block-section4 h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 400;
     margin: 4% 0;
 }
 
-.top-block-section4 p{
+.top-block-section4 p {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -532,37 +532,37 @@ header .header-left u {
     color: #666666;
 }
 
-.bottom-block-section4{
+.bottom-block-section4 {
     display: flex;
     justify-content: space-between;
 }
 
-.bottom-block-section4 .leftblock{
-display: flex;
-justify-content: space-between;
+.bottom-block-section4 .leftblock {
+    display: flex;
+    justify-content: space-between;
 
 
 }
 
-.bottom-block-section4 .rightblockinleftblock{
+.bottom-block-section4 .rightblockinleftblock {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 4%;
 }
 
-.bottom-block-section4 .rightblock{
+.bottom-block-section4 .rightblock {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.bottom-block-section4 .rightblock .bottomblockinrightblock{
+.bottom-block-section4 .rightblock .bottomblockinrightblock {
     display: flex;
     justify-content: space-between;
 }
 
-.bottom-block-section4{
+.bottom-block-section4 {
     margin-top: 5%;
 }
 
@@ -605,7 +605,7 @@ justify-content: space-between;
 
 /* ############## СЕКЦИЯЯЯ ПЯТЬЬЬЬЬЬЬЬ */
 
-.section-5{
+.section-5 {
     background-image: url(../img/bg-block4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -620,17 +620,17 @@ justify-content: space-between;
 
 }
 
-.section-5 .container{
-    
+.section-5 .container {
+
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
-    
+
+
 }
 
-.borderfor5block{
+.borderfor5block {
     border: white 4px solid;
     margin-top: 5%;
     width: 120%;
@@ -639,7 +639,7 @@ justify-content: space-between;
     flex-direction: column;
 }
 
-.section-5 h1{
+.section-5 h1 {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
@@ -647,7 +647,7 @@ justify-content: space-between;
     color: white;
 }
 
-.section-5 p{
+.section-5 p {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -657,7 +657,7 @@ justify-content: space-between;
     text-align: center;
 }
 
-.section-5 .topblock-section5{
+.section-5 .topblock-section5 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -665,17 +665,17 @@ justify-content: space-between;
     margin-top: 5%;
 }
 
-.armyrombwhite{
+.armyrombwhite {
     margin: 3%;
 }
 
-.bottomblock-section5{
+.bottomblock-section5 {
     margin-top: 7%;
     display: flex;
     justify-content: center;
 }
 
-.bottomblock-section5 h1{
+.bottomblock-section5 h1 {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
     font-style: normal;
@@ -683,7 +683,7 @@ justify-content: space-between;
     color: #39BFA7;
 }
 
-.blockofsection5 .number5section{
+.blockofsection5 .number5section {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
     font-style: normal;
@@ -691,7 +691,7 @@ justify-content: space-between;
 
 }
 
-.blockofsection5 .monthsection5{
+.blockofsection5 .monthsection5 {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
     font-style: normal;
@@ -700,7 +700,7 @@ justify-content: space-between;
 
 }
 
-.blockofsection5 p{
+.blockofsection5 p {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
@@ -708,26 +708,176 @@ justify-content: space-between;
     color: white;
 }
 
-.blockofsection5{
+.blockofsection5 {
     display: flex;
     margin-top: 8%;
     align-items: center;
     gap: 26px;
 }
 
-.rightblocksection5{
-margin-left: 10%;
+.rightblocksection5 {
+    margin-left: 10%;
 
 }
 
-.section-5 .text{
+.section-5 .text {
 
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
-.section-5 .button{
+.section-5 .button {
     align-self: center;
     margin-top: 10%;
 }
+
+
+/* 
+####################### ШЕСТАВЯ СЕКЦИЯ */
+
+.section-6 h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.section-6 p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.section-6 .container .topblock6section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration {
+    margin-top: 40px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .block-registation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .block-input{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  
+  .hight-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-h2 {
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .reg-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .block-input__checkbox {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .input-first {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 4%;
+  }
+  
+  .label-text {
+    margin-bottom: 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+  }
+
+  .section-6 span{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .input-first input {
+    padding: 10px 40px;
+    border: 1px solid #F87932;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .block-input__solo {
+    margin-top: 30px;
+  }
+  
+  .input-solo {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-solo input {
+    padding: 10px 0px;
+    border: 1px solid #F87932;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 50%;
+  }
+  
+  .block-input__checkbox {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .line-box {
+    margin-top: 10px;
+  }
+  
+  .block-input__checkbox {
+    text-align: start;
+  }
+  
+  
+  
+  .btn-label {
+    padding: 20px 67px;
+  }
