@@ -29,7 +29,7 @@ p {
     font-weight: inherit;
 }
 
-.button{
+.button {
     font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -42,11 +42,14 @@ p {
     box-shadow: none;
     cursor: pointer;
     border: none;
+    transition: 1s;
 }
 
-.button:hover{
+.button:hover {
     font-weight: 700;
-    box-shadow:0 0 30px #ffffff;
+    box-shadow: 0 0 30px #ffffff;
+    color: #F87932;
+    background-color: white;
 }
 
 
@@ -179,7 +182,7 @@ header {
     background-position: center;
     height: 120vh;
     position: relative;
-    
+
 }
 
 
@@ -222,19 +225,20 @@ header .logo {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-right: 8%;
+    
 }
 
 .nav-button:hover {
     padding: 40px 20px;
-    box-shadow:0 0 20px #ffffff;
+    box-shadow: 0 0 20px #ffffff;
 }
 
-.header_bottom{
+.header_bottom {
     display: flex;
     margin-top: 15%;
 }
 
-header .header-left{
+header .header-left {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -252,74 +256,74 @@ header .header-left u {
     text-shadow: 1px 1px 2px black;
 }
 
-.button-header{
+.button-header {
     margin-top: 20%;
 }
 
-.header_right{
+.header_right {
     position: relative;
     margin-left: 25%;
 }
 
-.sliderimg{
+.sliderimg {
     position: absolute;
     top: -32%;
     left: -213px;
 
 }
 
-.header_right .romb_headerimg1{
+.header_right .romb_headerimg1 {
     position: absolute;
     top: 40%;
     left: 304px;
     display: block;
 }
 
-.rombs-line-header{
-    display: inline-block; 
+.rombs-line-header {
+    display: inline-block;
     overflow: hidden;
 }
 
-.header_right .romb_headerimg1:hover{
+.header_right .romb_headerimg1:hover {
     transform: scale(1.2);
 }
 
-.header_right .romb_headerimg2:hover{
+.header_right .romb_headerimg2:hover {
     transform: scale(1.2);
 }
 
-.header_right .romb_headerimg3:hover{
+.header_right .romb_headerimg3:hover {
     transform: scale(1.2);
 }
 
-.header_right .romb_headerimg4:hover{
+.header_right .romb_headerimg4:hover {
     transform: scale(1.2);
 }
 
-.header_right .romb_headerimg5:hover{
+.header_right .romb_headerimg5:hover {
     transform: scale(1.2);
 }
 
-.header_right .romb_headerimg2{
+.header_right .romb_headerimg2 {
     position: absolute;
     top: 107%;
     left: 43px;
 
 }
 
-.header_right .romb_headerimg3{
+.header_right .romb_headerimg3 {
     position: absolute;
     top: -35%;
     left: 206px;
 }
 
-.header_right .romb_headerimg4{
+.header_right .romb_headerimg4 {
     position: absolute;
     top: 64%;
     left: 140px;
 }
 
-.header_right .romb_headerimg5{
+.header_right .romb_headerimg5 {
     position: absolute;
     top: 86%;
     left: -220px;
@@ -328,16 +332,16 @@ header .header-left u {
 
 /* ВТОРАЯ СЕКЦИЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ */
 
-.section-2{
+.section-2 {
     margin-top: 5%;
 }
 
-.section-2 .left-block{
+.section-2 .left-block {
     position: relative;
-    
+
 }
 
-.section-2 .container{
+.section-2 .container {
     display: flex;
 }
 
@@ -347,7 +351,7 @@ header .header-left u {
     font-style: normal;
     font-size: 24px;
     color: #666666;
-    
+
 }
 
 
@@ -372,22 +376,22 @@ header .header-left u {
     margin-top: 5%;
 }
 
-.section-2 .path{
+.section-2 .path {
     position: absolute;
     top: -23%;
     left: -210px;
 
 }
 
-.section-2 .right-block{
+.section-2 .right-block {
     margin-left: 6%;
 }
 
-.section-2 button{
+.section-2 button {
     margin-top: 25%;
 }
 
-.section-2 .button{
+.section-2 .button {
     font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -400,9 +404,10 @@ header .header-left u {
     box-shadow: none;
     cursor: pointer;
     border: solid 2px black;
+    transition: 1s;
 }
 
-.section-2 .button:hover{
+.section-2 .button:hover {
     font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -415,4 +420,70 @@ header .header-left u {
     box-shadow: none;
     cursor: pointer;
     border: solid 2px black;
+    transition: 1s;
 }
+
+
+
+
+/* СЕКЦИЯ ТРИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИИ */
+
+.section-3 {
+    margin-top: 5%;
+    background-image: url(../img/bg-block3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .topblock-section3 h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.section-3 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-3 .topblock-section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50%;
+}
+
+.section-3 h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 4px;
+    margin-top: 4%;
+
+}
+
+.section-3 .playimg{
+    margin-top: 20%;
+}
+
+.bottomblock-section3{
+    display: flex;
+    margin-top: 35%;
+}
+
+
